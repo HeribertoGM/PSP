@@ -1,0 +1,17 @@
+//.b=12
+
+from pynput.mouse import Button, Controller
+mouse = Controller()
+import time
+
+//.i
+def prueba():
+	for i in range(10):
+		print(mouse.position) //.m
+		time.sleep(0.2)
+		if i % 2 == 0:
+			mouse.move(10, 10) //.m
+		else:
+			mouse.move(10,-10) //.m
+
+prueba()

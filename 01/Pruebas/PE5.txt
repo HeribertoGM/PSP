@@ -1,0 +1,19 @@
+/*
+	Esto es una prueba de excepcion
+*/
+/*
+	Se prueba el escenario de excepcion
+	donde hay un comentario multilinea
+	con cierre doble.
+*/
+/*
+	Esto se cuenta normal
+*/
+	Aqui deberia de saltar un error
+*/
+/*
+	Esto no se deberia de procesar
+*/
+/*
+	comentario multilinea 1
+*/

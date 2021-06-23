@@ -1,0 +1,28 @@
+app.get('/', (req, res) => {
+	let filePath = path.join(__dirname, 'static', 'try.json');
+	let datos = JSON.parse(fs.readFileSync(filePath));
+	res.status(200).render('./es/landingES', {data: datos}, (err, html) => {
+		if(err){
+			res.send('<h1> something fucked up </h1>');
+			console.log(err);
+		}
+		else{
+			res.send(html);
+			console.log('sent: landingES');
+		}
+	});
+});
+app.get('/en/', (req, res) => {
+	let filePath = path.join(__dirname, 'static', 'try.json');
+	let datos = JSON.parse(fs.readFileSync(filePath));	// Aqui debe de dar error
+	res.status(200).render('./en/landingEN', {data: datos}, (err, html) => {
+		if(err){
+			res.send('<h1> something fucked up </h1>');
+			console.log(err);
+		}
+		else{
+			res.send(html);
+			console.log('sent: landingEN');
+		}
+	});
+});

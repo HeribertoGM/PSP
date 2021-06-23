@@ -1,0 +1,25 @@
+/*
+	Esto
+	es
+	un
+	archivo
+	con 
+	solo
+	comentarios
+	multilinea
+	en
+	el
+*/
+/*
+	Comentario
+	Multilinea
+	1
+*/
+/*
+	Comentario
+	Multilinea
+	2
+*/
+/*
+	System.out.println("Codigo dentro de un commentario multilinea");
+*/

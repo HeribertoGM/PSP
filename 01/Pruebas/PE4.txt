@@ -1,0 +1,15 @@
+/*
+	Esto es una prueba de excepcion
+*/
+/*
+	Se prueba el escenario de excepcion
+	donde hay un comentario multilinea
+	en un solo renglon.
+*/
+/*	Aqui deberia de saltar un error */
+/*
+	Esto no se deberia de procesar
+*/
+/*
+	comentario multilinea 1
+*/
